@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: black;
+  color: #4FD1C5;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4FD1C5;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3BA89F;
+}
+
+/* Content sections styling */
+.content-sections > section {
+  position: relative;
+  min-height: 100vh;
+  padding: 4rem 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+}
+
+.content-sections > section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(0, 0, 0, 0.3) 20%,
+    rgba(0, 0, 0, 0.4) 40%
+  );
+  pointer-events: none;
+}
+
+/* Hero section specific styling */
+#home {
+  background: transparent !important;
+}
+
+#home::before {
+  display: none;
+}
+
+/* Ensure content is visible over 3D background */
+.content-wrapper {
+  position: relative;
+  z-index: 10;
+}
