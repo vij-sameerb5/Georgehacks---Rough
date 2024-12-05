@@ -9,7 +9,8 @@ With problem statements addressing pressing global issues, participants get the 
 Join us for an unforgettable experience of creativity, innovation, and impact, and be part of a
 
 
-**run this -->**
+**run this here -->**
+https://beautiful-swan-354dd5.netlify.app/
 
 - import sb1-cxcmjm
 - npm install
