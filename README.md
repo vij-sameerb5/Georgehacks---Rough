@@ -11,7 +11,7 @@ Join us for an unforgettable experience of creativity, innovation, and impact, a
 
 **run this -->**
 
--import sb1-cxcmjm
--npm install
--install all dependencies
--npm run dev
+- import sb1-cxcmjm
+- npm install
+- install all dependencies
+- npm run dev
