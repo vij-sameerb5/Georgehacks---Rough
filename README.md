@@ -7,3 +7,11 @@ GeorgeHacks is George Washington University's premier 24-hour innovation-driven 
 With problem statements addressing pressing global issues, participants get the chance to ideate, build, and deploy solutions that make a difference. This event features an inclusive environment, exciting workshops, and opportunities to network with industry professionals and sponsors. Whether you're a coding expert or a curious beginner, GeorgeHacks offers something for everyone.
 
 Join us for an unforgettable experience of creativity, innovation, and impact, and be part of a
+
+
+**run this -->**
+
+-import sb1-cxcmjm
+-npm install
+-install all dependencies
+-npm run dev
